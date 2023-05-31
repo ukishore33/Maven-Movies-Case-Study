@@ -11,7 +11,7 @@ The link of the database is attached below
 
 The Entity Relationship of tables in the dataset is shown below in a image file
 
-[ER - Maven Movies](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/SQL%20mavenmovies.png)
+[ER - Maven Movies](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/ER%20Diagram.png)
 
 The aim of the project was to extract relevant data from the dataset representing a movies Database.
 
@@ -23,4 +23,4 @@ The dataset was used to extract information of users such as it returns first 10
 
 The link of Sql file attached below contains 6 queries using which we retrieve the lists asked by investors.
 
-[Project File](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/Analysing%20Maven%20Movies%20Database.sql)
+[Project File](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
