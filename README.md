@@ -1,9 +1,8 @@
+# Analysis of Maven Movies Database using MySQL
 
 - U Kishore
 - B.com
 - Data Analyst
-
-# Analysis of Maven Movies Database using MySQL
 
 The link of the database is attached below
 
