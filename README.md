@@ -51,7 +51,7 @@
 # Analysis of Maven Movies Database using MySQL
 
 - U Kishore
-- B.com
+- MBA ( Business Analytics ), B.com
 - Data Analyst
 
 The link of the database is attached below
