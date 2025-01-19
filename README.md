@@ -72,13 +72,13 @@
 
 > [Project File - 1](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
 
-> [Project File - 2](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 2](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_1_solution.sql)
 
-> [Project File - 3](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 3](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_2_solution.sql)
 
-> [Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_3_solution.sql)
 
-> [Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_4_solution.sql)
 
 > U Kishore - 
 > MBA ( Business Analytics ) @ MAHE '24, B.com @ BU '22 - 
