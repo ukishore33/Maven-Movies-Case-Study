@@ -2,6 +2,10 @@
 
 ## Maven Analytics Assignment Case Study Competition:
 
+- U Kishore
+- MBA ( Business Analytics ) @ MAHE '24, B.com @ BU '22
+- Data Analyst
+
 🧩 Situation: Maven Movies is a DVD Rental Business
 
 🧩 As day-to-day-operations role have to learn everything about the business like:
@@ -50,10 +54,6 @@
 
 # Analysis of Maven Movies Database using MySQL
 
-- U Kishore
-- MBA ( Business Analytics ), B.com
-- Data Analyst
-
 The link of the database is attached below
 
 [Maven Movies Data Base](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/Mavenmoviesdb.sql)
@@ -81,3 +81,7 @@ The link of Sql file attached below contains 6 queries using which we retrieve t
 [Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
 
 [Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+
+- U Kishore
+- MBA ( Business Analytics ) @ MAHE '24, B.com @ BU '22
+- Data Analyst
