@@ -56,11 +56,11 @@
 
 The link of the database is attached below
 
-[Maven Movies Data Base](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/Mavenmoviesdb.sql)
+> [Maven Movies Data Base](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/Mavenmoviesdb.sql)
 
 The Entity Relationship of tables in the dataset is shown below in a image file
 
-[ER - Maven Movies](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/ER%20Diagram.png)
+> [ER - Maven Movies](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/ER%20Diagram.png)
 
 The aim of the project was to extract relevant data from the dataset representing a movies Database.
 
@@ -72,15 +72,15 @@ The dataset was used to extract information of users such as it returns first 10
 
 The link of Sql file attached below contains 6 queries using which we retrieve the lists asked by investors.
 
-[Project File - 1](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 1](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
 
-[Project File - 2](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 2](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
 
-[Project File - 3](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 3](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
 
-[Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
 
-[Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
 
 - U Kishore
 - MBA ( Business Analytics ) @ MAHE '24, B.com @ BU '22
