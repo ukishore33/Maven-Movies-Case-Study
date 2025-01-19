@@ -52,10 +52,6 @@
 #### Note:💡
 🧩 All sql scripts and datascource available with detail explanation of each assignment.
 
-# Analysis of Maven Movies Database using MySQL
-
-The link of the database is attached below
-
 > [Maven Movies Data Base](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/Mavenmoviesdb.sql)
 
 The Entity Relationship of tables in the dataset is shown below in a image file
