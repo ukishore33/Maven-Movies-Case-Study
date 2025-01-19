@@ -2,8 +2,8 @@
 
 ## Maven Analytics Assignment Case Study Competition:
 
-> U Kishore
-> MBA ( Business Analytics ) @ MAHE '24, B.com @ BU '22
+> U Kishore -
+> MBA ( Business Analytics ) @ MAHE '24, B.com @ BU '22 -
 > Data Analyst
 
 🧩 Situation: Maven Movies is a DVD Rental Business
