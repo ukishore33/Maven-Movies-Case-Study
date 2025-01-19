@@ -70,13 +70,13 @@
 
 > The link of Sql file attached below contains 6 queries using which we retrieve the lists asked by investors.
 
-> [Project File - 1](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/The%20Project%20File.sql)
+> [Project File - 1](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_0_solution.sql)
 
 > [Project File - 2](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_1_solution.sql)
 
-> [Project File - 3](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_2_solution.sql)
+> [Project File - 3](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignment_2_solution.sql)
 
-> [Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_3_solution.sql)
+> [Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignment_3_solution.sql)
 
 > [Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_4_solution.sql)
 
