@@ -80,6 +80,37 @@
 
 > [Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_4_solution.sql)
 
+MavenMovies_SQL_PowerBI
+Creating Dashboard to visualize product and customers trends
+
+Project Proposal
+Use SSMS and PowerBI to analyze product and customer data from the MavenMovie movie rental business.
+
+Used tools
+SQL Server Management Studio 19
+PowerBI
+Methodology
+Download MavenMovie datasets:
+
+Payments
+Customer Lookup
+Product Lookup
+Rental Lookup
+Staff Lookup
+Designing structured relashioship diagram
+
+ERD
+Answering the different use case task using SQL
+
+Relaying database with PowerBi to import the different queries via data connectivity mode.
+
+Creating a variety of visualiztions that provide an in-depth product and customer base summary.
+
+Visualization Dashboard
+Dash 1
+Dash 2
+Dash 3
+
 > U Kishore - 
 > MBA ( Business Analytics ) @ MAHE '24, B.com @ BU '22 - 
 > Data Analyst
