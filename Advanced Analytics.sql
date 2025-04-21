@@ -146,3 +146,91 @@ JOIN PAYMENT P ON C.CUSTOMER_ID = P.CUSTOMER_ID
 GROUP BY C.CUSTOMER_ID, C.FIRST_NAME, C.LAST_NAME
 ORDER BY Total_Spent DESC
 LIMIT 5;
+
+-- Missing Advanced SQL Queries for Real-World Scenarios
+
+-- 1️⃣ Complex Recursive Query: Finding Customer Referral Chains
+-- 📌 Best Use Case: When dealing with hierarchical data such as organizational structures, referral programs, or bill of materials.
+WITH RECURSIVE ReferralHierarchy AS (
+    SELECT CUSTOMER_ID, REFERRED_BY AS REFERRER_ID, 1 AS LEVEL
+    FROM CUSTOMER
+    WHERE REFERRED_BY IS NOT NULL
+    
+    UNION ALL
+    
+    SELECT C.CUSTOMER_ID, C.REFERRED_BY, RH.LEVEL + 1
+    FROM CUSTOMER C
+    JOIN ReferralHierarchy RH ON C.REFERRED_BY = RH.CUSTOMER_ID
+)
+SELECT * FROM ReferralHierarchy;
+
+-- 2️⃣ Advanced Window Function: Dense Rank with Conditional Aggregation
+-- 📌 Best Use Case: Ranking customers based on total spending while maintaining ranking gaps in case of ties.
+SELECT CUSTOMER_ID, FIRST_NAME, LAST_NAME, SUM(AMOUNT) AS Total_Spent,
+       DENSE_RANK() OVER (PARTITION BY CUSTOMER_TYPE ORDER BY SUM(AMOUNT) DESC) AS Spending_Rank
+FROM PAYMENT
+JOIN CUSTOMER USING (CUSTOMER_ID)
+GROUP BY CUSTOMER_ID, FIRST_NAME, LAST_NAME, CUSTOMER_TYPE;
+
+-- 3️⃣ Dynamic SQL Query: Building Queries on the Fly
+-- 📌 Best Use Case: When table names or filters need to be decided at runtime (e.g., handling multi-tenant databases).
+DELIMITER //
+CREATE PROCEDURE GenerateDynamicQuery(IN TableName VARCHAR(50))
+BEGIN
+    SET @sql_query = CONCAT('SELECT * FROM ', TableName, ' LIMIT 10');
+    PREPARE stmt FROM @sql_query;
+    EXECUTE stmt;
+    DEALLOCATE PREPARE stmt;
+END;
+//
+DELIMITER;
+
+-- Call Procedure Example:
+CALL GenerateDynamicQuery('FILM_LIST');
+
+-- 4️⃣ Most Advanced Query Used in Work Experience: Customer Churn Prediction
+-- 📌 Best Use Case: Predicting customer churn based on historical activity.
+WITH CustomerActivity AS (
+    SELECT C.CUSTOMER_ID, C.FIRST_NAME, C.LAST_NAME,
+           COUNT(R.RENTAL_ID) AS Rental_Count,
+           MAX(R.RENTAL_DATE) AS Last_Rental_Date,
+           DATEDIFF(CURDATE(), MAX(R.RENTAL_DATE)) AS Days_Since_Last_Rental
+    FROM CUSTOMER C
+    LEFT JOIN RENTAL R ON C.CUSTOMER_ID = R.CUSTOMER_ID
+    GROUP BY C.CUSTOMER_ID, C.FIRST_NAME, C.LAST_NAME
+)
+SELECT CUSTOMER_ID, FIRST_NAME, LAST_NAME, Rental_Count, Last_Rental_Date,
+       CASE 
+           WHEN Rental_Count = 0 THEN 'Inactive'
+           WHEN Days_Since_Last_Rental > 90 THEN 'High Churn Risk'
+           ELSE 'Active'
+       END AS Churn_Status
+FROM CustomerActivity
+ORDER BY Days_Since_Last_Rental DESC;
+
+-- 5️⃣ Indexing and Performance Optimization
+-- 📌 Best Use Case: Speeding up search queries on frequently used columns.
+CREATE INDEX idx_customer_email ON CUSTOMER(EMAIL);
+EXPLAIN SELECT * FROM CUSTOMER WHERE EMAIL = 'test@example.com';
+
+-- 6️⃣ Pivoting Data Using Conditional Aggregation
+-- 📌 Best Use Case: Transforming row-based data into a columnar format (e.g., sales by region).
+SELECT CUSTOMER_ID,
+       SUM(CASE WHEN MONTH(RENTAL_DATE) = 1 THEN 1 ELSE 0 END) AS January_Rentals,
+       SUM(CASE WHEN MONTH(RENTAL_DATE) = 2 THEN 1 ELSE 0 END) AS February_Rentals
+FROM RENTAL
+GROUP BY CUSTOMER_ID;
+
+-- 7️⃣ JSON Handling in SQL
+-- 📌 Best Use Case: Working with semi-structured data stored as JSON in relational databases.
+SELECT CUSTOMER_ID, JSON_EXTRACT(DETAILS, '$.preferences') AS Preferences
+FROM CUSTOMER_DETAILS;
+
+-- 8️⃣ Advanced Date & Time Functions
+-- 📌 Best Use Case: Comparing time intervals and trends over time.
+SELECT CUSTOMER_ID, FIRST_NAME, RENTAL_DATE,
+       LAG(RENTAL_DATE) OVER (PARTITION BY CUSTOMER_ID ORDER BY RENTAL_DATE) AS Previous_Rental,
+       DATEDIFF(RENTAL_DATE, LAG(RENTAL_DATE) OVER (PARTITION BY CUSTOMER_ID ORDER BY RENTAL_DATE)) AS Days_Between_Rentals
+FROM RENTAL;
+
+-- This document now covers **ALL** missing advanced SQL concepts! 🚀
