@@ -70,6 +70,12 @@
 
 > The link of Sql file attached below contains 6 queries using which we retrieve the lists asked by investors.
 
+> [Exploration - 1](https://github.com/ukishore33/Maven-Movies-Case-Study/blob/main/Part%20I%20-%20Maven%20Movies%20-%20Intro%20Case%20Study.pdf)
+
+> [Exploration - 2](https://github.com/ukishore33/Maven-Movies-Case-Study/blob/main/Part%20II%20-%20Getting%20to%20know%20Maven%20Movies%20Database.pdf)
+
+> [Exploration - 3](https://github.com/ukishore33/Maven-Movies-Case-Study/blob/main/Part%20III%20-%20Maven%20Movies%20Analysis%20Result%20Overview.pdf)
+
 > [Project File - 1](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_0_solution.sql)
 
 > [Project File - 2](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_1_solution.sql)
@@ -79,6 +85,8 @@
 > [Project File - 4](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignment_3_solution.sql)
 
 > [Project File - 5](https://github.com/ukishore33/Analysing-of-Maven-Movies-Database/blob/main/mavenmovies_assignement_4_solution.sql)
+
+> [Advanced](https://github.com/ukishore33/Maven-Movies-Case-Study/blob/main/Advanced%20Analytics.sql) 
 
 # MavenMovies_SQL_PowerBI
 Creating Dashboard to visualize product and customers trends
